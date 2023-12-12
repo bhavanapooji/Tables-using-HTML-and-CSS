@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T9</title>
+    <style>
+table{ 
+    width:500px;
+
+    border-collapse: collapse;
+    background-image: linear-gradient( #e1f3ee,#f2dad1);
+}
+#head{
+    background-color: #0086a6;
+    color:#f2dad1
+}
+.blue{
+    width:50;
+    color:#044e6d
+}
+
+
+</style>
+</head>
+<body>
+   <table>
+    <tr id="head">
+        <td>EMPLOYEES</td>
+        <td>POSITION</td>
+        <td>START DATE</td>
+    </tr>
+    <tr class="blue">
+        <td>John Doe</td>
+        <td>CEO</td>
+        <td>16 Mar 2001</td>
+    </tr>
+    <tr class="blue">
+        <td >Stefan</td>
+        <td>Marketing</td>
+        <td>12 Jan 2002</td>
+    </tr>
+    <tr class="blue">
+        <td>Smith</td>
+        <td>Finance</td>
+        <td>5 June 200</td>
+    </tr>
+    <tr class="blue">
+        <td >Lucifer</td>
+        <td>Sales</td>
+        <td>24 June 1998</td>
+    </tr>
+    <tr class="blue">
+        <td>Damon</td>
+        <td>Support</td>
+        <td>2 Feb 2008</td>
+    </tr>
+   </table>
+</body>
+</html>
