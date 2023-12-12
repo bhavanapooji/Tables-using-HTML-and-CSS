@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 3</title>
+   <style>
+table,td{
+    text-align: center;
+    border:0.5px solid rgb(226, 223, 223);
+}
+table tr:first-child{
+    background-color:#03977a;
+    color:white;
+}
+table tr:nth-child(3){
+    color:#03977a;
+    background-color: rgb(226, 223, 223);
+
+}
+</style>
+</head>
+<body>
+    <table cellpadding="5" cellspacing="0">
+        <tr>
+            <td>Rank</td>
+            <td>Name</td>
+            <td>Points</td>
+            <td>Team</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Domenic</td>
+            <td>8,876</td>
+            <td>Dcode</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Akshaya</td>
+            <td>6,836</td>
+            <td>Student</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Rahul</td>
+            <td>4,976</td>
+            <td>Dcode</td>
+        </tr>
+    </table>
+</body>
+</html>
