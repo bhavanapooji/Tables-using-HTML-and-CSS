@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 2</title>
+    <style>
+table,th,td{
+    text-align: center;
+    
+    border:1px solid #033450
+}
+
+table tr:nth-child(odd){
+    background-color: #83adb6;
+}
+table tr:nth-child(even){
+    background-color:rgb(247, 249, 249);
+    
+}
+tr>td>button:hover{
+    background-color:#056985;
+    color:#ecded7
+}
+
+
+</style>
+</head>
+<body>
+    <table cellspacing="0" cellpadding="5">
+        <tr id="maroon">
+            <th>Provider name</th>
+            <th colspan="2">E-mail</th>
+        </tr>
+        <tr id="bluee">
+            <td>Laocb Geaorgescu</td>
+            <td>e-mail@test-email.com</td>
+            <td><button>Select</button></td>
+        </tr>
+        <tr>
+            <td>Julius Neumann</td>
+            <td>e-mail@test-email.com</td>
+            <td><button>Select</button></td>
+        </tr>
+        <tr>
+            <td>Christoph Koller</td>
+            <td>e-mail@test-email.com</td>
+            <td><Button>Select</Button></td>
+        </tr>
+        <tr>
+            <td>Bram Lemmens</td>
+            <td>e-mail@test-email.com</td>
+            <td><button>Select</button></td>
+        </tr>
+        <tr>
+            <td colspan=3> Year:2014</td>
+        </tr>
+
+    </table>
+</body>
+</html>
